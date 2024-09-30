@@ -9,7 +9,7 @@ export class moto extends automovil{
 
     constructor(color: string,rodado:number,marca:string,modelo:number,vtv:boolean,estado:boolean) {
         super(color, rodado, marca, modelo, vtv, estado);
-        this.ruedas = ruedasMoto;
+        this.ruedas = ruedasMoto; // inicializo siempre en 2
     }
       
 }
