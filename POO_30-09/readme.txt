@@ -13,7 +13,7 @@ Clase "Camion"
     (a diferencia de los otros casos, hay mas o menos ruedas, dependiendo el modelo)
 
 Clase registroAutomotor:
-    Clase para poder definir objetos de tipo Automovil(sus hijos). y metodos genericos para obtener:
+    Clase para poder definir objetos de tipo Automovil (y sus hijos). y metodos genericos para obtener:
     Camion/Auto/Moto, y modificarlo en consecuencia.
 
 Tips:
