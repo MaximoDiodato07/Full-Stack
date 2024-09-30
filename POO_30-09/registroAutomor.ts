@@ -38,10 +38,10 @@ class registroAutomor{
 
 }
 
-//--------- Variables esperadas (color, rodado, marca, modelo, vtv)
-const auto1 = new auto("Rojo", 14,"Mercedez Benz", 2020, true);
+//--------- Variables esperadas (color, rodado, marca, modelo, vtv, estado)
+const auto1 = new auto("Rojo", 14,"Mercedez Benz", 2020, true, true);
 
-const moto1 = new moto ("Blanco", 17, "Honda CB500X", 2023, false);
+const moto1 = new moto ("Blanco", 17, "Honda CB500X", 2023, false, true);
 
 //--------- Variables esperadas (color, rodado, marca, modelo, vtv, ruedas)
 const camion1 = new camion("Ocre", 22.5, "Volvo FH16", 2022, true, true, 6);
@@ -64,5 +64,5 @@ console.log(vehiculoModificable); // Muestro estado incializado
 registro.modificarVehiculo(vehiculoModificable, "Azul", 21)
 
 // de esta manera, podria modificar el color o el rodado de cualquier vehiculo.
-
+console.log("Vehiculos registrados:")
 console.log(registro);
